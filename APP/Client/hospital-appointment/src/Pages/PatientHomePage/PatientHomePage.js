@@ -31,6 +31,7 @@ function PatientHomePage(props) {
 
   useEffect(() => {
     getData(date);
+    console.error('new Error')
   }, [date]);
 
   const handleBookClick = (patientDetails) => {
